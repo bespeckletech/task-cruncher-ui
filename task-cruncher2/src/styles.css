@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+.projectList {
+  list-style: none;
+  padding: 0 0.75rem;
+  margin: 0;
+}
+
+.projectList li {
+  padding: 8px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.projectList li:last-child {
+  border-bottom: 0;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, 
+.sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+  background-color: #ff5200;
+}
+
+.authBtn {
+  border: 0;
+  border-radius: 50px;
+  padding: 5px 20px;
+  background-color: #ff5200;
+  color: #fff;
+}
+
+.hamMenu img {
+  width: 100%;
+  max-width: 25px;
+}
