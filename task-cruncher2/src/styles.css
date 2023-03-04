@@ -7,6 +7,8 @@
 .projectList li {
   padding: 8px 0;
   border-bottom: 1px solid #dee2e6;
+  font-weight: 600;
+  color: #6c6c6c;
 }
 
 .projectList li:last-child {
@@ -29,4 +31,96 @@
 .hamMenu img {
   width: 100%;
   max-width: 25px;
+}
+
+.breadcrumb-item {
+  font-size: 0.95rem;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+  padding-left: 0.3rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  padding-right: 0.3rem;
+}
+
+.breadcrumb-item a {
+  color: #ff5200;
+  font-size: 0.95rem;
+}
+
+.brand-link {
+  font-weight: 600;
+  margin: auto;
+  font-style: italic;
+}
+
+[class*=sidebar-dark] .brand-link, [class*=sidebar-dark] .brand-link .pushmenu {
+  color: rgba(255,82,0,.8);
+  text-align: center;
+  transition: all .3s ease;
+}
+
+[class*=sidebar-dark] .brand-link .pushmenu:hover, [class*=sidebar-dark] .brand-link:hover {
+  color: rgba(255,82,0,1);
+}
+
+.nav-sidebar>.nav-item a {
+  transition: all .3s ease;
+}
+
+.card-secondary:not(.card-outline)>.card-header {
+  background-color: rgb(52,58,64,0.68);
+}
+
+.card-info.card-outline, .card-primary.card-outline,
+.card-light.card-outline {
+  border-top: 3px solid #ff5200;
+}
+
+.card-primary:not(.card-outline)>.card-header {
+  background-color: #fd7a3c;
+}
+
+.main-footer {
+  text-align: center;
+  color: #ff5200;
+  font-size: 0.9rem;
+  background: #f4f6f9;
+  border: 0;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-left: 7.5px;
+}
+
+.main-header {
+  align-items: center;
+}
+
+.content-header h1 {
+  font-size: 1.7rem;
+}
+
+.card-header h3.card-title {
+  float: none;
+  text-align: center;
+}
+
+.card-header h5.card-title {
+  font-size: 1rem;
+}
+
+.content-wrapper.kanban .btn-tool.btn-link {
+  padding-top: 0;
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: 0 0 3px rgb(88 88 88 / 13%), 0 1px 5px rgb(88 88 88 / 20%);
+}
+
+label:not(.form-check-label):not(.custom-file-label) {
+  font-weight: 400;
 }
